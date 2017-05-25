@@ -1,0 +1,66 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ outline: dotted 1px red;
+}
+#headermain{
+    display: inline-block;
+}
+#headerleft{
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+}
+#headerright{
+    width: 200px;
+    background-color: yellow;
+    display: inline-block;
+    
+}
+#navmain{
+}
+#navabout{
+    display: inline-block;
+}
+#navdownloads{
+    display: inline-block;
+}
+#navdocumenation{
+    display: inline-block;
+}
+#navcommunity{
+    display: inline-block;
+}
+#navnews{
+    display: inline-block;
+}
+#navevents{
+    display: inline-block;
+}
+#aboutmain{
+    display: inline-block;
+}
+#leftaboutaside{
+    display: inline-block;
+    height: 100px;
+}
+#aboutsection{
+    display: inline-block;
+    vertical-align: top;
+}
+#aboutheading{
+}
+#aboutarticle{
+}
+#sectionmain{
+    
+}
+#mainleftsection{
+display: inline-block;
+    
+}
+#mainrightsection{
+display: inline-block;
+    
+}
