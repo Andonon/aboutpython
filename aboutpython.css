@@ -5,56 +5,66 @@
  outline: dotted 1px red;
 }
 #headermain{
+    background-color: #245176;
     display: inline-block;
 }
 #headerleft{
     width: 200px;
-    background-color: red;
+    background-color: #245176;
     display: inline-block;
 }
 #headerright{
     width: 200px;
-    background-color: yellow;
+    background-color: #245176;
     display: inline-block;
     
 }
 #navmain{
+    background-color: #245176;
 }
 #navabout{
     display: inline-block;
+    background-color: #245176;
 }
 #navdownloads{
     display: inline-block;
+    background-color: #245176;
 }
 #navdocumenation{
     display: inline-block;
+    background-color: #245176;
 }
 #navcommunity{
     display: inline-block;
+    background-color: #245176;
 }
 #navnews{
     display: inline-block;
+    background-color: #245176;
 }
 #navevents{
     display: inline-block;
+    background-color: #245176;
 }
 #aboutmain{
     display: inline-block;
+    background-color: #245176;
 }
 #leftaboutaside{
     display: inline-block;
+    background-color: #245176;
     height: 100px;
 }
 #aboutsection{
     display: inline-block;
+    background-color: #245176;
     vertical-align: top;
 }
 #aboutheading{
 }
 #aboutarticle{
 }
-#sectionmain{
-    
+#mainsection{    
 }
 #mainleftsection{
 display: inline-block;
