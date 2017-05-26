@@ -167,43 +167,95 @@ input.placeholder{
 #thezenofpython ul li:nth-last-child(1){
     color: white;
 }
+
 /*****************************************************************/
 /* This is the getting started section and application sections. */
 /*****************************************************************/
 
 #gettingstartedmain{
-    Width: 970px
+    Width: 870px
+    height: 500px;
+    text-align: center;
 }
+.horizontalbar{
+    background-color: #73a7d5;
+    margin: 10px 20px 0px 20px;
+    height: 4px;
+    width: 400px;
+}
+
+/*****************************************************************/
+/*             Getting Started section                           */
+/*****************************************************************/
+
 #gettingstarted{
-    background-color: red;
-    width: 485px;
+    width: 435px;
     display: inline-block;
     vertical-align: top;
+    text-align: center;
 }
+
 #gettingstarted h1{
-    Font-family: sans-serif;
-    color: white;
+    text-align: center;
+    margin: 10px auto;
+
 }
 #gettingstarted p{
+    margin: 0px 80px auto;
+    font-size: 13px;
 }
 #gettingstarted ul{
-    list-style: none;    
+    list-style: square;    
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px 100px;
 }
-#Applications{
-    background-color: yellow;
-    width: 485px;
+#gettingstarted ul li{
+    color: black;
+    font-size: 20px;
+}
+#gettingstarted ul li span{
+    color: #73a7d5;
+    font-size: 14px;
+}
+
+/*****************************************************************/
+/*          Applications  section                                */
+/*****************************************************************/
+
+
+#applications{
+    width: 435px;
     display: inline-block;
-    list-style: none;
+    vertical-align: top;
+    text-align: center;
 }
-#Applications h1{
-    color: white;
+#applications h1{
+    text-align: center;
+    margin: 10px auto;
+
 }
 
 #applications p{
+    margin: 0px 80px auto;
+    font-size: 13px;
 }
 #applications p span{
+    color: #73a7d5;
+    font-size:12px;    
 }
-#applucations ul{
+
+#applications ul{
+    list-style: square;    
+    font-size: 13px;
+    line-height: 20px;
+    margin: 10px 100px;
 }
 #applications ul li{
+    color: black;
+    font-size: 20px;
+}
+#applications ul li span{
+    color: #73a7d5;
+    font-size: 14px;
 }
