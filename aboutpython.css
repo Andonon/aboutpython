@@ -82,50 +82,62 @@ input.placeholder{
 }
 #navmain{
     background-color: #245176;
-    display: inline-block;
-
+    text-align: center;
+    height: 50px;
+    padding-top 10px;
 }
-.navbuttonleft{
-    background-image: linear-gradient(#3474ac,#487eac,#3474ac);
+#navmain li{
+    background-image: linear-gradient(#3474ac,#4989bb,#3474ac);
     width: 140px;
+    height: 30px;
     display: inline-block;
-    height: 35px;
     font-size: 20px;
     color: white;
     padding-top: 10px;
+    box-shadow: 3px 3px 2px #000000;
+    list-style-type: none;
+}
+#navmain li:nth-child(1){
+    margin-right: -7px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px #000000;
+}
+#navmain li:nth-last-child(1){
+    margin-left: -7px;
+    border-radius: 8px;
+}
+
+
+/*
+.navbuttonleft{
+    background-image: linear-gradient(#3474ac,#4989bb,#3474ac);
+    width: 140px;
+    display: inline-block;
+    margin-right: -7px;
+    font-size: 20px;
+    color: white;
     vertical-align: top;
+    border-radius: 8px;
 }
 .navbuttonmid{
-    background-image: linear-gradient(#3474ac,#487eac,#3474ac);
+    background-image: linear-gradient(#3474ac,#4989bb,#3474ac);
     width: 140px;
     display: inline-block;
-    height: 35px;
     font-size: 20px;
     color: white;
-    padding-top: 10px;
     vertical-align: top;
 }
 .navbuttonright{
-    background-image: linear-gradient(#3474ac,#487eac,#3474ac);
+    background-image: linear-gradient(#3474ac,#4989bb,#3474ac);
     width: 140px;
     display: inline-block;
-    height: 35px;
     font-size: 20px;
+    margin-left: -7px;
+    border-radius: 8px;
     color: white;
-    padding-top: 10px;
     vertical-align: top;
 }
-
-
-
-
-
-
-
-
-
-
-
+*/
 #aboutmain{
     display: inline-block;
     background-color: #245176;
@@ -136,7 +148,28 @@ input.placeholder{
     background-color: #245176;
     height: 100px;
     width: 50%
+    list-style-type: none;
 }
+#leftaboutaside span{
+    font-size: 5px;
+    color: #dabd3c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #aboutsection{
     display: inline-block;
     background-color: #245176;
