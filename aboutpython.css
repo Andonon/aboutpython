@@ -1,3 +1,6 @@
+/* Created: 5/25/2017 by Troy Center, troycenter1@gmail.com. 
+Coding Dojo HTML CSS AboutPython project */
+
 /*CSS reset settings here*/
 *{
  margin: 0px;
@@ -81,6 +84,7 @@ input.placeholder{
 #navmain{
     background-color: #245176;
     width: 970px;
+    height: 50px;
 }
 #navmain ul{
     text-align: center;
@@ -110,45 +114,21 @@ input.placeholder{
     border-radius: 8px;
 }
 
-/* ABOUT PYTHON SECTION */
-#aboutmain{
-    display: inline-block;
-    background-color: #245176;
+/* This is the Main Information CSS content*/
+#MainInformation{
     width: 970px;
-}
-#leftaboutaside{
-    display: inline-block;
+    height: 300px;
     background-color: #245176;
-    height: 100px;
-    width: 50%
 }
-#aboutsection{
+#pythonlinks{
     display: inline-block;
-    background-color: #245176;
-    vertical-align: top;
-    width: 49%;
+    height: inherit;
+    width: 50%;
+    background-color: red;
 }
-#aboutheading{
-    background-color: white;
-
-}
-#aboutarticle{
-    background-color: white;
-
-}
-#mainsection{  
-    width: 970px;  
-}
-#mainleftsection{
-display: inline-block;
-    width: 50%
-}
-#mainrightsection{
-display: inline-block;
-    width: 49%
-}
-footer{
-    background: linear-gradient(#275378, #3877ae);
-    width: 970px;
-    
+#thezenofpython{
+    display: inline-block;
+    height: inherit;
+    width: 50%;
+    background-color: yellow;
 }
