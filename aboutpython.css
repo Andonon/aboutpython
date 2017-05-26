@@ -131,11 +131,11 @@ input.placeholder{
 }
 #pythonlinks ul{
     list-style: none;
+    text-decoration: underline;
     color: white;
     text-align: center;
     margin-top: 40px;
     line-height: 30px;
-    list-style: none;
 }
 #pythonlinks ul span{
     color: #ceaf05;
@@ -166,7 +166,44 @@ input.placeholder{
 }
 #thezenofpython ul li:nth-last-child(1){
     color: white;
- 
+}
+/*****************************************************************/
+/* This is the getting started section and application sections. */
+/*****************************************************************/
 
+#gettingstartedmain{
+    Width: 970px
+}
+#gettingstarted{
+    background-color: red;
+    width: 485px;
+    display: inline-block;
+    vertical-align: top;
+}
+#gettingstarted h1{
+    Font-family: sans-serif;
+    color: white;
+}
+#gettingstarted p{
+}
+#gettingstarted ul{
+    list-style: none;    
+}
+#Applications{
+    background-color: yellow;
+    width: 485px;
+    display: inline-block;
+    list-style: none;
+}
+#Applications h1{
+    color: white;
 }
 
+#applications p{
+}
+#applications p span{
+}
+#applucations ul{
+}
+#applications ul li{
+}
