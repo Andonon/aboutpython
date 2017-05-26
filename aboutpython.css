@@ -98,6 +98,7 @@ input.placeholder{
     padding-top: 10px;
     color: white;
     display: inline-block;
+    box-shadow: 3px 3px 3px #292929;
 }
 #navmain ul li:nth-child(1){
     background-image: linear-gradient(#3474ac,#4584b6,#3474ac);
@@ -119,16 +120,53 @@ input.placeholder{
     width: 970px;
     height: 300px;
     background-color: #245176;
+    list-style: none;
 }
 #pythonlinks{
     display: inline-block;
     height: inherit;
-    width: 50%;
-    background-color: red;
+    width: 25%;
+    vertical-align: top;
+    
+}
+#pythonlinks ul{
+    list-style: none;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 30px;
+    list-style: none;
+}
+#pythonlinks ul span{
+    color: #ceaf05;
+    font-size: 8px;    
+    margin: 10px;
 }
 #thezenofpython{
     display: inline-block;
     height: inherit;
-    width: 50%;
-    background-color: yellow;
+    width: 75%;
 }
+#thezenofpython p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 30px 10px 30px;
+}
+#thezenofpython ul{
+    line-height: 30px
+}
+#thezenofpython ul li{
+    color: #ceaf05;
+    list-style: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    list-style: none;
+}
+#thezenofpython ul li:nth-last-child(1){
+    color: white;
+ 
+
+}
+
